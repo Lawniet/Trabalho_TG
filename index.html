@@ -13,10 +13,9 @@
 			<NAV class="menu-opcoes">
 				<form method="POST" action="./pages/trabalho.php">
 				    <label>Operção: </label><br><br>
-                    <select name='O' onchange="setEscolha (this.value);">
-                        <option value="Estudo de caso 1">Estudo de caso 1</option>
-                        <option value="Estudo de caso 2">Estudo de caso 2</option>
-                        <option value="Parte 1">Parte 1 </option>
+                    <select name='O' onchange="setEscolha (this.value);" required>
+                        <option value="null">Escolha uma opção</option>
+                        <option value="Parte 1">Modo livre</option>
                         <option value="Representacao">Representação</option>
                         <option value="Busca">Busca</option>
                     </select>
